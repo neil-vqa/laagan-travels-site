@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$('.sidenav').sidenav();
+	$('.parallax').parallax();
+	$('.scrollspy').scrollSpy({
+		'scrollOffset':50
+	});
+	$('.materialboxed').materialbox();
+	$('.modal').modal();
+});
